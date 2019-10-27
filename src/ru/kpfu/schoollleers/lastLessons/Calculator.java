@@ -1,8 +1,12 @@
+package ru.kpfu.schoollleers.lastLessons;
+
 import java.util.Scanner;
 
 public class Calculator {
     public static Scanner scanner;
+    final double p = (double) 3.14;
     public static void main(String[] args){
+        hello();
         scanner = new Scanner(System.in);
         int a,b;
         System.out.println("Введите по одной переменные");
@@ -11,10 +15,13 @@ public class Calculator {
         char c;
         c = scanner.next().charAt(0);
         int result = -1;
-        float result1 = (float)1.3454;
+        float result1 = (float)0;
         boolean flag = false;
         if(c == '+'){
             result = plus(a,b);
+            if(c=='+'){
+                System.out.println("hello");
+            }
         }
         else if(c == '-'){
             result = minus(a,b);
@@ -36,7 +43,9 @@ public class Calculator {
             System.out.println(result);
         }
     }
-
+    public static void hello(){
+        System.out.println("Привет ребята как дела");
+    }
     private static float div(int a, int b) {
         float k = a / b;
         return k;
