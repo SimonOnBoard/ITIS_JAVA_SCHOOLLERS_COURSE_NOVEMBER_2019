@@ -3,7 +3,7 @@ package lesson2810;
 import java.sql.Date;
 
 public class Dogovor {
-    String owner;
+    protected String owner;
     String text;
     protected int cost;
     Date date;

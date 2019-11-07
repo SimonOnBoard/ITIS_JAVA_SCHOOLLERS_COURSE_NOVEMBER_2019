@@ -14,12 +14,13 @@ public class CompanyDogovor extends Dogovor {
     }
 
     @Override
-    public void printInfo(){
-        System.out.println(this.INN + " " +  this.OGRN);
+    public void printInfo() {
+        System.out.println(this.INN + " " + this.OGRN);
+        System.out.println(super.owner);
     }
 
 
-    void sendMessage(){
+    void sendMessage() {
         //какая-то логика своя
         cost = cost + 5;
         System.out.println("I send message to Company");
