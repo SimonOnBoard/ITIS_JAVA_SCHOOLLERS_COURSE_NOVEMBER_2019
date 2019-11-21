@@ -1,0 +1,9 @@
+1	6	Name
+1	3	NewName
+2	4	Jin
+3	5	Ins
+5	4	Linny
+2	6	Sand
+4	1	Hanya
+4	3	Semmi
+3	3	Assa
